@@ -1,0 +1,22 @@
+Environment
+Software: Virtual Box
+Operating System: Linux (Unbuntu)
+Installation: MySQL server on Linux, Python, CouchDb on Linux
+Author: Yu Zhang, zyu.1106@gmail.com, www.yu-zhang.net
+
+How to run
+1.	Login to MySQL server.
+2.	Check the table elements.
+3.	Look at the last data.
+4.	Run the python program.
+    The program is now waiting for CouchDb changes.
+5.	Open CouchDb
+6.	Create a new document.
+7.	Save this document
+8.	Look at the program.
+	  It create a new “Insert query” to the database.
+9.	Check MySQL Server.
+    Look at the last data. A new data has been added
+
+Description
+For now, the program is only a very simple demo. If want to implement whole functionalities, I need to add more logic to parse the JSON object. As a result, the program will be able to handle “DELETE”, “UPDATE” and more queries.
